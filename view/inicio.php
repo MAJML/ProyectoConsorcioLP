@@ -1,25 +1,3 @@
-<header class="header">
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img src="assets/img/logo_consorcio_ls.png" width="100%" alt=""></a>
-            </div>
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="menu-icon">&#9776;</label>
-            <ul class="menu_n">
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Ofertas Laborales</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contáctanos</a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
 
 <img src="assets/img/banner1inicio.png" width="100%" alt="">
 
@@ -138,6 +116,17 @@
     type   : 'loop',
     perPage: 5,
     perMove: 1,
+    breakpoints: {
+		994: {
+			perPage: 3,
+		},
+        768: {
+			perPage: 2,
+		},
+        500: {
+			perPage: 1,
+		},
+    }
     } );
 
     splide.mount();

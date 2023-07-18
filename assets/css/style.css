@@ -93,6 +93,7 @@
 }
 .caja_footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .item_footer{
@@ -111,4 +112,37 @@
 .item_footer p a{
     color: #fff;
     text-decoration: none;
+}
+@media only screen and (max-width: 1005px) {
+    .item_reconocimientos {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: 50% !important;
+    }
+}
+@media only screen and (max-width: 994px) {
+    .item_footer {
+        margin-top: 10px;
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width: 502px) {
+    .item_footer {
+        margin-top: 10px;
+        width: 100% !important;
+    }
+    .item_reconocimientos {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: 100% !important;
+    }
+    .titulo_web{
+        font-size: 30px;
+    }
+}
+.seccion_servicios{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
 }

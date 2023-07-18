@@ -17,10 +17,10 @@
                     <p>Lunes a Viernes</p>
                     <p>8:30 am a 5:00 pm</p>
                     <div>Lima</div>
-                    <p><a href="">(01) 512 - 0860</a></p>
+                    <p><a href=""><i class="fa-solid fa-phone" style="color: #ffffff;"></i> (01) 512 - 0860</a></p>
                     <div><b>Contáctenos</b></div>
-                    <p>Av. 28 de Julio 1397 - Miraflores</p>
-                    <p>rmoreno@consorciolp.com.pe</p>
+                    <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Av. 28 de Julio 1397 - Miraflores</p>
+                    <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> rmoreno@consorciolp.com.pe</p>
                 </div>
             </div>
         </div>

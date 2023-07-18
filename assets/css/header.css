@@ -75,10 +75,10 @@
   @media only screen and (max-width: 950px) {
     .menu_n {
       flex-direction: column;
-      background-color: #151418;
+      background-color: #00497eb9;
       align-items: start;
       position: absolute;
-      top: 70px;
+      top: 91px;
       left: 0;
       width: 100%;
       z-index: 1;
