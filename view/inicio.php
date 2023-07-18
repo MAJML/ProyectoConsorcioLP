@@ -7,7 +7,7 @@
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul class="menu_n">
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Nosotrosas</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Ofertas Laborales</a></li>
                 <li><a href="#">Blog</a></li>
