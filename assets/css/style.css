@@ -3,6 +3,7 @@
     color: #00497E;
     font-size: 45px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .caja_servicios{
     display: flex !important;
@@ -40,8 +41,74 @@
 .carousel-inner .img1_banner{
     width: 100%;
     height: 700px;
-    background-repeat: no-repeat;
-    position: relative;
     background: #000000;
-    background: url(../img/sival_inicio_b_\(1\).jpeg);
+    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/sival_inicio_b.jpeg);
+    background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.carousel-inner .img2_banner{
+    width: 100%;
+    height: 700px;
+    background: #000000;
+    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/oss_inicio_b.jpeg);
+    background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.carousel-inner .img3_banner{
+    width: 100%;
+    height: 700px;
+    background: #000000;
+    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/selalima_inicio_b.jpeg);
+    background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.slider_img_li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.color_fondo_reconocimientos{
+    background: #afafaf3b;
+}
+.caja_reconocimiento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.item_reconocimientos{
+    flex: 20%;
+    text-align: center;
+}
+.fondo_footer{
+    background: #00497E;
+    color: #fff !important;
+}
+.caja_footer{
+    display: flex;
+    justify-content: center;
+}
+.item_footer{
+    width: 30%;
+}
+.item_footer div{
+    font-size: 20px;
+    margin-bottom: 10px !important;
+    margin-top: 5px;
+}
+.item_footer p{
+    color: #fff !important;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+.item_footer p a{
+    color: #fff;
+    text-decoration: none;
 }
