@@ -142,7 +142,98 @@
 }
 .seccion_servicios{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 50px 0px;
+}
+
+/* SECCION VENTANA DE SERVICIOS */
+.titulo_nuestros_servicios{
+    color: #00497E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0px 70px 0px;
+}
+.caja_general_servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.border_primero{
+    border-radius: 30px 10px 10px 30px !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.border_primero:hover{
+    background: red;
+    color: #fff;
+}
+.item_servicios{
+    transition: all 0.3s;
+    height: 200px;
+    width: 16%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: #afafaf3b;
+    font-weight: 600;
+    border-radius: 0px 10px 10px 0px;
+}
+.border_ultimo{
+    transition: all 0.3s;
+    border-radius: 10px 30px 30px 10px !important;
+}
+.segundo_item:hover{
+    background: #A9C844;
+    color: #fff;
+    cursor: pointer;
+}
+.tercero_item:hover{
+    background: #37ACD1;
+    color: #fff;
+    cursor: pointer;
+}
+.cuarto_item:hover{
+    background: #FFCB05;
+    color: #fff;
+    cursor: pointer;
+}
+.quinto_item:hover{
+    background: #9F0A0E;
+    color: #fff;
+    cursor: pointer;
+}
+.border_ultimo:hover{
+    background: #FCB817;
+    color: #fff;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1145px) {
+    .item_servicios {
+        margin-top: 10px;
+        width: 23% !important;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .caja_general_servicios{
+        margin-bottom: 0px;
+    }
+    .item_servicios {
+        width: 32% !important;
+    }
+}
+@media only screen and (max-width: 546px) {
+    .item_servicios {
+        width: 47% !important;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .item_servicios {
+        width: 98% !important;
+    }
 }
