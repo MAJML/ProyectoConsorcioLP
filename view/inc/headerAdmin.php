@@ -19,16 +19,16 @@
     <div class="container">
         <nav>
             <div class="logo">
-                <a href="index.html"><img src="assets/img/logo_consorcio_ls.png" width="100%" alt=""></a>
+                <a href="inicio"><img src="assets/img/logo_consorcio_ls.png" width="100%" alt=""></a>
             </div>
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul class="menu_n">
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Ofertas Laborales</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contáctanos</a></li>
+                <li><a href="nosotros">Nosotros</a></li>
+                <li><a href="servicios">Servicios</a></li>
+                <li><a href="ofertas-laborales">Ofertas Laborales</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="contactanos">Contáctanos</a></li>
                 <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
                 <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>

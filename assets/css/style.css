@@ -12,25 +12,65 @@
     align-items: center;
 }
 .item_caja_servicios{
+    position: relative;
+    display: flex;
     cursor: pointer;
     padding: 30px 5px;
     width: 32% !important;
+    height: 200px;
     background: #00497E;
     margin: 20px auto;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 40px;
     transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+.text_hover_servicios{
+    border-radius: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.text_hover_servicios img{
+    width: 100%;
+    height: 100%;
+}
+.item_caja_servicios:hover > .text_hover_servicios{
+    opacity:1;
+    visibility: visible;    
+}
+
 .caja1:hover{
     background: red;
 }
 .item_caja_servicios a{
-   color: #fff !important;
-   text-decoration: none;
+    font-size: 22px;
+    padding: 6px;
+    color: #fff !important;
+    text-decoration: none;
+}
+@media only screen and (max-width: 993px) {
+    .item_caja_servicios {
+        width: 45% !important;
+    }
 }
 @media only screen and (max-width: 828px) {
     .item_caja_servicios {
         width: 45% !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .item_caja_servicios {
+        width: 100% !important;
     }
 }
 @media only screen and (max-width: 495px) {
@@ -38,11 +78,39 @@
         width: 100% !important;
     }
 }
+.caja_titulo_impulso{
+    width: 80%;
+    padding-top: 150px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.titulo_impulos_promotorio{
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+.titulo_ope_limpieza{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+.btn_solicitar_servicios button{
+    margin-top: 50px;
+    border: none;
+    font-size: 19px;
+    padding: 7px 25px;
+    background: #00497E;
+    color: #fff;
+}
+.subtitulo_impulso_promotorio{
+    font-size: 30px;
+}
 .carousel-inner .img1_banner{
     width: 100%;
     height: 700px;
     background: #000000;
-    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/sival_inicio_b.jpeg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.667), hsla(210, 29%, 13%, 0.667)),url(../img/sival_inicio_b.jpeg);
     background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -51,7 +119,7 @@
     width: 100%;
     height: 700px;
     background: #000000;
-    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/oss_inicio_b.jpeg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.667), hsla(210, 29%, 13%, 0.667)),url(../img/oss_inicio_b.jpeg);
     background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -60,7 +128,7 @@
     width: 100%;
     height: 700px;
     background: #000000;
-    background: linear-gradient(to right, hsla(210, 29%, 18%, 0.486), hsla(210, 29%, 13%, 0.459)),url(../img/selalima_inicio_b.jpeg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.667), hsla(210, 29%, 13%, 0.667)),url(../img/selalima_inicio_b.jpeg);
     background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -71,8 +139,30 @@
     align-items: center;
     align-content: center;
 }
+@media only screen and (max-width: 1088px) {
+    .titulo_impulos_promotorio{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 641px) {
+    .caja_titulo_impulso img{
+        width: 50%;
+    }
+    .titulo_impulos_promotorio{
+        font-size: 50px;
+    }
+    .titulo_ope_limpieza{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: -1px;
+    }
+    .subtitulo_impulso_promotorio{
+        font-size: 20px;
+    }
+}
 
 .color_fondo_reconocimientos{
+    box-shadow: -3px 1px 12px 1px #0202023b;
     background: #afafaf3b;
 }
 .caja_reconocimiento{
@@ -236,4 +326,87 @@
     .item_servicios {
         width: 98% !important;
     }
+}
+.caja_nos_diferencia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.item_nos_diferencia{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.item_nos_diferencia p{
+    color: #00497E;
+    font-size: 25px;
+}
+.cajita_img_diferent img{   
+    width: 130px;  
+}
+.cajita_img_diferent{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cajita_img_diferent:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 1704px) {
+    .item_nos_diferencia{
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .item_nos_diferencia p{
+        font-size: 21px;
+    }
+}
+.caja_bolsa_trabajo{
+    padding: 28px 38px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 0px 60px 0px 60px;
+    box-shadow: 8px 10px 12px -8px rgba(0,0,0,1);
+}
+.item_text_bols_trabajo{
+    width: 70%;
+}
+.item_btn_bols_trabajo{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lugar_oferta_laboral{
+    font-weight: 700;
+    color: #585858;
+}
+.titulo_oferta_laboral{
+    color: #00497E;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.item_btn_bols_trabajo img{
+    text-align: center;    
+    width: 50%;
+
+}
+.item_btn_bols_trabajo button{
+    text-align: center;
+    background: #00497E;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
 }
