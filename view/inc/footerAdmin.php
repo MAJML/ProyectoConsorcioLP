@@ -7,10 +7,10 @@
                 </div>
                 <div class='item_footer'>
                     <div class='titulo_footer_div'><b>Acerca de Consorcio LP</b></div>
-                    <p><a href="">● Nosotros</a></p>
-                    <p><a href="">● Servicios</a></p>
-                    <p><a href="">● Blog</a></p>
-                    <p><a href="">● Contáctanos</a></p>
+                    <p><a href="nosotros">● Nosotros</a></p>
+                    <p><a href="servicios">● Servicios</a></p>
+                    <p><a href="blog">● Blog</a></p>
+                    <p><a href="contactanos">● Contáctanos</a></p>
                 </div>
                 <div class='item_footer'>
                     <div><b>Central Telefónica</b></div>

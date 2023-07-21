@@ -1,0 +1,1 @@
+<img src="assets/img/banner_blog.png" width="100%" alt="">

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="assets/img/logo_consorcio_ls.png"/>
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">    
@@ -29,10 +30,10 @@
                 <li><a href="ofertas-laborales">Ofertas Laborales</a></li>
                 <li><a href="blog">Blog</a></li>
                 <li><a href="contactanos">Contáctanos</a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/consorcio-lpc/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/consorciolp1?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://instagram.com/consorciolp?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@consorcio_lp?_t=8eAMjNUyw7B&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
             </ul>
         </nav>
     </div>

@@ -368,8 +368,10 @@
     }
 }
 .caja_bolsa_trabajo{
+    cursor: pointer;
     padding: 28px 38px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     border: 1px solid black;
@@ -400,7 +402,6 @@
 .item_btn_bols_trabajo img{
     text-align: center;    
     width: 50%;
-
 }
 .item_btn_bols_trabajo button{
     text-align: center;
@@ -409,4 +410,113 @@
     border: none;
     padding: 5px 20px;
     border-radius: 20px;
+    transition: all 0.3s;
+}
+.item_btn_bols_trabajo button:hover{
+    background: #1e6da5;
+}
+.contenido_imagen_banner{
+    position: relative;
+}
+.caja_formulario_bolsa{
+    width: 100%;
+    padding: 40px 0px;
+    position: absolute;
+    bottom: 0;
+    background: #00497e83;
+}
+.form_bolsa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.item_txt_form{
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+}
+.item_btn_form button{
+    width: 100%;
+    padding: 7px 0px;
+    background: #37ACD1;
+    color: #fff;
+    border: none;
+}
+.item_btn_form{
+    width: 10%;
+}
+@media only screen and (max-width: 1000px) {
+    .item_txt_form{
+        width: 49%;
+    }
+    .item_btn_form{
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 795px) {
+    .titulo_oferta_laboral{
+        color: #00497E;
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+    .item_btn_bols_trabajo img{
+        text-align: center;    
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 542px) {
+    .caja_bolsa_trabajo{
+        padding: 28px 10px;
+    }
+    .item_txt_form{
+        width: 100%;
+    }
+    .item_btn_form{
+        width: 100%;
+    }
+    .caja_formulario_bolsa{
+        width: 100%;
+        padding: 40px 0px;
+        position: relative;
+        bottom: 0;
+        background: #00497e83;
+    }
+    .item_text_bols_trabajo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .item_btn_bols_trabajo{
+        width: 100%;
+    }
+}
+
+/* SECTION CONTACTANOS */
+.titulo_contactanos{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #00497E;
+    font-size: 31px;
+}
+.btn_enviar_form_buscar_bolsa{
+    background: #00497E;
+    border-radius: 24px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    padding: 6px 35px;
+}
+.form-label{
+    color: #00497E !important;
+    font-weight: 600;
+}
+.titulo_contactanos_ubicanos{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #00497E;
+/*     font-size: 31px; */
 }

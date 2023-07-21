@@ -9,6 +9,8 @@ if (isset($_GET["ruta"])) {
       $_GET["ruta"] == "servicios" ||
       $_GET["ruta"] == "nosotros" ||
       $_GET["ruta"] == "ofertas-laborales" ||
+      $_GET["ruta"] == "contactanos" ||
+      $_GET["ruta"] == "blog" ||
       $_GET["ruta"] == "salir") {
 
       include "view/".$_GET["ruta"].".php";

@@ -71,7 +71,7 @@
             <div class="carousel-item img3_banner">
                 <div class="caja_titulo_impulso">
                     <img src="assets/img/Sela_Lima_blanco.png" width="25%" alt="">
-                    <p class="titulo_ope_limpieza">Operarios de Lipieza: Reglamento para una buena gestión</p>
+                    <p class="titulo_ope_limpieza">Operarios de Limpieza: Reglamento para una buena gestión</p>
                     <p class="subtitulo_impulso_promotorio">Actividades PAVCO</p>
                     <div class="btn_solicitar_servicios">
                         <button type="button">Ver Blog</button>
